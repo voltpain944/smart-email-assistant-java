@@ -32,15 +32,12 @@ An intelligent email management system powered by Spring Boot and AI that helps 
 
 ## Tech Stack 🛠️
 
-- **Backend**: Spring Boot 3.2
-- **AI Integration**: Spring AI
-- **Email Processing**: JavaMail API
-- - **Natural Language Processing**: [![Gemini](https://img.shields.io/badge/Google%20Gemini-AI-orange?style=flat)](https://ai.google/get-started/gemini-ecosystem/)
-- **Database**:
-  - Development: [![H2 Database](https://img.shields.io/badge/Database-H2-brown?style=flat-square&logo=h2)](https://www.h2database.com/)
-  - Production: [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
-- - **API Documentation**: [![Gemini API](https://img.shields.io/badge/Google%20Gemini-API-purple?style=flat)](https://ai.google.dev/gemini-api/docs)
-- **Build Tool**: Maven
+- **Language:** Java  
+- **Framework:** Spring Boot  
+- **Build Tool:** Maven  
+- **API Style:** REST  
+- **Testing Tool:** Postman  
+
 
 ## Prerequisites 📋
 
@@ -57,7 +54,7 @@ An intelligent email management system powered by Spring Boot and AI that helps 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/18-RAJAT/SpringAI-InboxAssistant.git
+   git clone https://github.com/voltpain944/smart-email-assistant-java.git
    cd SpringAI-InboxAssistant
    ```
 
@@ -106,16 +103,6 @@ curl -X POST "http://localhost:9191/api/email/generate" \
 | `/api/email/summarize` | POST | Summarize email threads |
 | `/api/email/analyze-sentiment` | POST | Perform sentiment analysis on email content |
 | `/api/email/schedule-followup` | POST | Schedule follow-up reminders |
-
-## Contributing 🤝
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
 
 ## Acknowledgements 😇
 
