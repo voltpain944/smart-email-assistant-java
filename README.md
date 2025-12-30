@@ -44,15 +44,15 @@ smart-email-assistant-springboot
 ## 🧪 Sample API Request
 
 - **Endpoint**
-- POST /api/email/reply
+   POST /api/email/reply
 
 - **ResquestBody**
-- {
+  {
   "emailContent": "Can we schedule a meeting tomorrow?"
   }
 
 - **Response**
-- {
+  {
   "reply": "Thank you for your message. I am available to schedule a meeting."
   }
 
