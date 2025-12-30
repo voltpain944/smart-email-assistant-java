@@ -1,4 +1,4 @@
-# 📧 Smart Email Assistant – Spring Boot
+# 📧 Smart Email Assistant – java
 
 > A Java Spring Boot backend application that generates intelligent and automated email replies using clean REST APIs and scalable architecture.
 
@@ -43,15 +43,15 @@ smart-email-assistant-springboot
 
 ## 🧪 Sample API Request
 
-- **Endpoint**
+- **Endpoint:**
    POST /api/email/reply
 
-- **ResquestBody**
+- **ResquestBody:**
   {
   "emailContent": "Can we schedule a meeting tomorrow?"
   }
 
-- **Response**
+- **Response:**
   {
   "reply": "Thank you for your message. I am available to schedule a meeting."
   }
