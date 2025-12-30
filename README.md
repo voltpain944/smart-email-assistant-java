@@ -32,11 +32,16 @@ It follows industry-standard Spring Boot practices and can be easily extended wi
 ## 📂 Project Structure
 smart-email-assistant-springboot
 │
-├── controller    → Handles REST API requests
-├── service       → Business logic for email reply generation
-├── model         → Request & response objects
-├── resources     → Application configuration
-└── pom.xml       → Maven dependencies
+├── controller → Handles REST API requests
+├── service → Business logic for email reply generation
+├── model → Request & response objects
+├── resources → Application configuration
+└── pom.xml → Maven dependencies
+
+
+
+
+
 
 ---
 
@@ -55,7 +60,7 @@ mvn spring-boot:run
 
 ---
 
-## Sample API Request
+##
 --Endpoint
 POST /api/email/reply
 
@@ -69,3 +74,17 @@ POST /api/email/reply
   "reply": "Thank you for your message. I am available to schedule a meeting."
 }
 
+---
+🧪 Sample API Request
+Endpoint
+POST /api/email/reply
+
+Request Body
+{
+  "emailContent": "Can we schedule a meeting tomorrow?"
+}
+
+Response
+{
+  "reply": "Thank you for your message. I am available to schedule a meeting."
+}
